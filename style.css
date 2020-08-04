@@ -1,7 +1,6 @@
 <style>
-	.header
+	.header, h1
 	{
-		float: center;
 		background: green;
 		color: white;
 	}

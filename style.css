@@ -9,7 +9,7 @@
 		float: Right;
 	}
 
-	.TableHead
+	.TableHead, h1
 	{
 		background: green;
 		color: white;
@@ -21,14 +21,6 @@
 		text-indent: 36px;
 	}
 	
-	h1
-	{
-		background: green;
-		color: white;
-		text-align: center;
-		padding: 0px;
-	}
-
 	p
 	{
 		margin-bottom: 0;

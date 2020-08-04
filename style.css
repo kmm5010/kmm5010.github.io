@@ -1,11 +1,4 @@
 <style>	
-	h1
-	{
-		background: green;
-		color: white;
-		text-align: center;
-		padding: 0px;
-	}
 	.left
 	{
 		float: left;
@@ -26,6 +19,14 @@
 	.indent
 	{
 		text-indent: 36px;
+	}
+	
+	h1
+	{
+		background: green;
+		color: white;
+		text-align: center;
+		padding: 0px;
 	}
 
 	p

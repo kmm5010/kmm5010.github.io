@@ -9,7 +9,14 @@
 		float: Right;
 	}
 
-	.TableHead, h1
+	h1
+	{
+		background: green;
+		color: white;
+		padding: 0px;
+	}
+
+	.TableHead
 	{
 		background: green;
 		color: white;

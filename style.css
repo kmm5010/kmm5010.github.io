@@ -1,15 +1,14 @@
 <style>
-	.header
+	h1, header
 	{
 		text-align: center;
-		background-color: green;
+		background: green;
 		color: white;
 	}
 	
 	.left
 	{
 		float: left;
-
 	}
 
 	.right
@@ -22,7 +21,6 @@
 		background: green;
 		color: white;
 		padding: 0px;
-
 	}
 
 	.indent

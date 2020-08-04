@@ -1,7 +1,7 @@
 <style>
 	.header
 	{
-		text-align: center;
+		float: center;
 		background: green;
 		color: white;
 	}

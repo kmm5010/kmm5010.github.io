@@ -1,4 +1,11 @@
 <style>	
+	h1
+	{
+		background: green;
+		color: white;
+		text-align: center;
+		padding: 0px;
+	}
 	.left
 	{
 		float: left;
@@ -9,7 +16,7 @@
 		float: Right;
 	}
 
-	.TableHead, h1
+	.TableHead
 	{
 		background: green;
 		color: white;

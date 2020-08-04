@@ -15,7 +15,7 @@
 		float: Right;
 	}
 
-	.TableHead
+	.TableHead, h1
 	{
 		background: green;
 		color: white;

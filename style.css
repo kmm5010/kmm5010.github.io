@@ -1,10 +1,14 @@
 <style>	
 	.left {
 		float: left;
+		border:solid; 
+		boder-color: rgb(76,187,23);
 	}
 
 	.right {
 		float: Right;
+		border:solid; 
+		boder-color: rgb(76,187,23);
 	}
 
 	h1 {

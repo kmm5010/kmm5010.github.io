@@ -1,23 +1,19 @@
 <style>	
-	.left
-	{
+	.left {
 		float: left;
 	}
 
-	.right
-	{
+	.right {
 		float: Right;
 	}
 
-	h1
-	{
+	h1 {
 		background-color: rgb(76,187,23);
 		color: white;
 		padding: 0px;
 	}
 
-	.TableHead
-	{
+	.TableHead {
 		background: rgb(76,187,23);
 		color: white;
 		padding: 0px;
@@ -28,45 +24,40 @@
 		text-indent: 36px;
 	}
 	
-	p
-	{
+	p {
 		margin-bottom: 0;
 		margin-top: 0;
 	}
 
-	div
-	{
+	div {
 		margin: 0;
 		padding: 0;
 	}
 
-	h4
-	{
+	h4 {
 		margin-bottom: 0;
 		margin-top: 0;
 	}
 
-	ul
-	{
+	ul {
 		margin-bottom: 0;
 		margin-top: 0;
 	}
 
-	td
-	{
-		vertical-align: top;
-		margin-left: 0;
+	td {
+		vertical-align: top; margin-left: 0;
 		padding: 100;
 		text-indent: 6px;
+		border:solid; 
+		boder-color: rgb(76,187,23);
+		padding: 0";
 	}
 
-	li
-	{
+	li {
 		font-style: italic;
 	}
 
-	.APA
-	{
+	.APA {
 		padding-left: 42px;
 		text-indent: -36px;
 	}

@@ -1,4 +1,8 @@
 <style>	
+	body {
+		border:solid rgb(76,187,23);
+	}
+		
 	.left {
 		float: left;
 	}
@@ -19,7 +23,6 @@
 	{
 		text-indent: 36px;
 	}
-	
 	p {
 		margin-bottom: 0;
 		margin-top: 0;
@@ -37,6 +40,7 @@
 		margin-top: 0;
 	}
 	table {
+		border:solid rgb(76,187,23);
 		border-collapse: collapse;
 	}
 	td {

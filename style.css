@@ -1,28 +1,27 @@
 <style>	
+	body.resume {
+		boder-color: rgb(76,187,23);
+	}
 	.left {
 		float: left;
 		border:solid; 
 		boder-color: rgb(76,187,23);
 	}
-
 	.right {
 		float: Right;
 		border:solid; 
 		boder-color: rgb(76,187,23);
 	}
-
 	h1 {
 		background-color: rgb(76,187,23);
 		color: white;
 		padding: 0px;
 	}
-
 	.TableHead {
 		background: rgb(76,187,23);
 		color: white;
 		padding: 0px;
 	}
-
 	.indent
 	{
 		text-indent: 36px;
@@ -32,22 +31,18 @@
 		margin-bottom: 0;
 		margin-top: 0;
 	}
-
 	div {
 		margin: 0;
 		padding: 0;
 	}
-
 	h4 {
 		margin-bottom: 0;
 		margin-top: 0;
 	}
-
 	ul {
 		margin-bottom: 0;
 		margin-top: 0;
 	}
-
 	td {
 		vertical-align: top; margin-left: 0;
 		padding: 100;
@@ -56,11 +51,9 @@
 		boder-color: rgb(76,187,23);
 		padding: 0";
 	}
-
 	li {
 		font-style: italic;
 	}
-
 	.APA {
 		padding-left: 42px;
 		text-indent: -36px;

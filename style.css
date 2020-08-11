@@ -42,10 +42,9 @@
 	td {
 		vertical-align: top; 
 		margin-left: 0;
-		padding: 100;
 		text-indent: 6px;
 		border:solid rgb(76,187,23);
-		padding: 0";
+		padding: 0px;
 	}
 	li {
 		font-style: italic;

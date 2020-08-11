@@ -36,12 +36,15 @@
 		margin-bottom: 0;
 		margin-top: 0;
 	}
+	table {
+		border-collapse: collapse;
+	}
 	td {
-		vertical-align: top; margin-left: 0;
+		vertical-align: top; 
+		margin-left: 0;
 		padding: 100;
 		text-indent: 6px;
-		border:solid; 
-		border-color: rgb(76,187,23);
+		border:solid rgb(76,187,23);
 		padding: 0";
 	}
 	li {

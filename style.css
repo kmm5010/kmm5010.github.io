@@ -5,13 +5,9 @@
 	}
 	.left {
 		float: left;
-		border:solid; 
-		border-color: rgb(76,187,23);
 	}
 	.right {
 		float: Right;
-		border:solid; 
-		border-color: rgb(76,187,23);
 	}
 	h1 {
 		background-color: rgb(76,187,23);
@@ -49,7 +45,7 @@
 		padding: 100;
 		text-indent: 6px;
 		border:solid; 
-		boder-color: rgb(76,187,23);
+		border-color: rgb(76,187,23);
 		padding: 0";
 	}
 	li {

@@ -1,61 +1,46 @@
-<style>	
-	.border {
-		border: solid 5px rgb(76,187,23);
-		padding: 5px;
-	}
-		
-	.left {
-		float: left;
-	}
-	.right {
-		float: Right;
-	}
-	#Ireland {
-		background-image: ("Ireland.jpg");
-		background-size: cover;
-		text-align: center;
-	}
-	h1 {
-		background-color: rgb(76,187,23);
-		color: white;
-		padding: 0px;
-	}
-	.TableHead {
-		background: rgb(76,187,23);
-		color: white;
-		padding: 0px;
-	}
-	.indent
-	{
-		text-indent: 36px;
-	}
-	p {
-		margin-bottom: 0;
-		margin-top: 0;
-	}
-	div {
-		margin: 0;
-		padding: 0;
-	}
-	h4 {
-		margin-bottom: 0;
-		margin-top: 0;
-	}
-	ul {
-		margin-bottom: 0;
-		margin-top: 0;
-	}
-	td {
-		vertical-align: top; 
-		margin-left: 0;
-		text-indent: 6px;
-		border: 5px solid rgb(76,187,23);
-	}
-	li {
-		font-style: italic;
-	}
-	.APA {
-		padding-left: 42px;
-		text-indent: -36px;
-	}
-</style>
+#resume {
+  border: 5px solid #00b050;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #00b050;
+  text-align: center;
+  padding: 0;
+}
+
+h4 {
+  background-color: #00b050;
+  color: whitesmoke;
+  padding: 4px;
+  margin: 0 !important;
+}
+
+.indent {
+  text-indent: 36px;
+}
+
+p {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  padding: 0 5px 0 5px !important;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
+li {
+  font-style: italic;
+}
+
+.APA {
+  padding-left: 50px !important;
+  text-indent: -36px;
+}
+
+.left-border {
+  border-left: 5px solid #00b050;
+}
+/*# sourceMappingURL=style.css.map */

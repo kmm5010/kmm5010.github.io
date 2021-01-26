@@ -1,0 +1,41 @@
+$green: rgb(0,176,80);
+$white: rgb(255, 255, 255);
+
+#resume {
+    border: 5px solid $green;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: $green;
+    text-align: center;
+    padding: 0;
+}
+h4 {
+    background-color: $green;
+	color: whitesmoke;
+    padding: 4px;
+    margin: 0 !important;
+}
+.indent
+{
+	text-indent: 36px;
+}
+p {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding: 0 5px 0 5px !important;
+}
+ul {
+	margin-bottom: 0 !important;
+}
+li {
+    font-style: italic;
+}
+.APA {
+	padding-left: 50px !important;
+	text-indent: -36px;
+}
+.left-border {
+    border-left: 5px solid $green;
+}

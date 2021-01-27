@@ -1,18 +1,20 @@
-#resume {
-  border: 5px solid #00b050;
-  background-color: whitesmoke;
+body {
+  border: 5px solid #3D550C;
+  background-color: whitesmoke !important;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: #00b050;
+  color: #3D550C;
+  background-color: #ECF87F;
   text-align: center;
   padding: 0;
+  margin-top: 60px;
 }
 
 h4 {
-  background-color: #00b050;
-  color: whitesmoke;
+  background-color: #3D550C;
+  color: #ECF87F;
   padding: 4px;
   margin: 0 !important;
 }
@@ -41,6 +43,76 @@ li {
 }
 
 .left-border {
-  border-left: 5px solid #00b050;
+  border-left: 5px solid #3D550C;
+}
+
+#portfolio-pic {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 5px solid #3D550C;
+}
+
+.full-border {
+  border: 5px solid #3D550C;
+}
+
+#project-samples .yellow img {
+  border: 3px solid #3D550C;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+}
+
+#project-samples .yellow img:hover {
+  -webkit-box-shadow: 0 0 10px #3D550C;
+          box-shadow: 0 0 10px #3D550C;
+}
+
+#project-samples .green img {
+  border: 3px solid #ECF87F;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+}
+
+#project-samples .green img:hover {
+  -webkit-box-shadow: 0 0 10px #ECF87F;
+          box-shadow: 0 0 10px #ECF87F;
+}
+
+.yellow {
+  background: #ECF87F;
+  padding: 25px;
+  color: #3D550C;
+}
+
+.green {
+  background: #3D550C;
+  padding: 25px;
+  color: #ECF87F;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 999 !important;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #3D550C;
+}
+
+br {
+  line-height: 200%;
+  display: block;
+  margin: 10px 0;
 }
 /*# sourceMappingURL=style.css.map */

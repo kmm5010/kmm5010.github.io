@@ -1,19 +1,21 @@
-$green: rgb(0,176,80);
-$white: rgb(255, 255, 255);
+$green: #3D550C;
+$yellow: #ECF87F;
 
-#resume {
+body {
     border: 5px solid $green;
-    background-color: whitesmoke;
+    background-color: whitesmoke !important;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     color: $green;
+    background-color: $yellow;
     text-align: center;
     padding: 0;
+    margin-top: 60px;
 }
 h4 {
     background-color: $green;
-	color: whitesmoke;
+	color: $yellow;
     padding: 4px;
     margin: 0 !important;
 }
@@ -38,4 +40,71 @@ li {
 }
 .left-border {
     border-left: 5px solid $green;
+}
+
+#portfolio-pic {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 5px solid $green;
+}
+
+.full-border {
+    border: 5px solid $green;
+}
+
+#project-samples {
+    .yellow {
+        img {
+            border: 3px solid $green;
+            border-radius: 4px;
+            padding: 5px;
+            width: 80%;
+        }
+        img:hover {
+            box-shadow: 0 0 10px $green;
+        }
+    }
+    .green {
+        img {
+            border: 3px solid $yellow;
+            border-radius: 4px;
+            padding: 5px;
+            width: 80%;
+        }
+        img:hover {
+            box-shadow: 0 0 10px $yellow;
+        }
+    }
+    
+}
+.yellow {
+    background: #ECF87F;
+    padding: 25px;
+    color: $green;
+}
+.green {
+    background: $green;
+    padding: 25px;
+    color: #ECF87F;
+}
+h2 {
+    text-align: center;
+}
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 999 !important;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #3D550C;
+}
+br {
+    line-height: 200%;
+    display: block;
+    margin: 10px 0;
+    
 }

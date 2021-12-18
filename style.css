@@ -56,6 +56,10 @@ li {
   border: 5px solid #3D550C;
 }
 
+.container {
+  height: 120px;
+}
+
 .yellow img {
   border: 3px solid #3D550C;
   border-radius: 4px;

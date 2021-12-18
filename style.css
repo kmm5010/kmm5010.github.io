@@ -56,15 +56,12 @@ li {
   border: 5px solid #3D550C;
 }
 
-.thumbnail {
-  height: 480px;
-}
-
 .yellow img {
+  max-height: 480px;
   border: 3px solid #3D550C;
   border-radius: 4px;
   padding: 5px;
-  width: 80%;
+  max-width: 960px;
 }
 
 .yellow img:hover {
@@ -73,10 +70,11 @@ li {
 }
 
 .green img {
+  max-height: 480px;
   border: 3px solid #ECF87F;
   border-radius: 4px;
   padding: 5px;
-  width: 80%;
+  max-width: 960px;
 }
 
 .green img:hover {

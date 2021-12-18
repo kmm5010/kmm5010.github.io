@@ -56,26 +56,26 @@ li {
   border: 5px solid #3D550C;
 }
 
-#project-samples .yellow img {
+.yellow img {
   border: 3px solid #3D550C;
   border-radius: 4px;
   padding: 5px;
   width: 80%;
 }
 
-#project-samples .yellow img:hover {
+.yellow img:hover {
   -webkit-box-shadow: 0 0 10px #3D550C;
           box-shadow: 0 0 10px #3D550C;
 }
 
-#project-samples .green img {
+.green img {
   border: 3px solid #ECF87F;
   border-radius: 4px;
   padding: 5px;
   width: 80%;
 }
 
-#project-samples .green img:hover {
+.green img:hover {
   -webkit-box-shadow: 0 0 10px #ECF87F;
           box-shadow: 0 0 10px #ECF87F;
 }

@@ -52,31 +52,31 @@ li {
     border: 5px solid $green;
 }
 
-#project-samples {
-    .yellow {
-        img {
-            border: 3px solid $green;
-            border-radius: 4px;
-            padding: 5px;
-            width: 80%;
-        }
-        img:hover {
-            box-shadow: 0 0 10px $green;
-        }
+
+.yellow {
+    img {
+        border: 3px solid $green;
+        border-radius: 4px;
+        padding: 5px;
+        width: 80%;
     }
-    .green {
-        img {
-            border: 3px solid $yellow;
-            border-radius: 4px;
-            padding: 5px;
-            width: 80%;
-        }
-        img:hover {
-            box-shadow: 0 0 10px $yellow;
-        }
+    img:hover {
+        box-shadow: 0 0 10px $green;
     }
-    
 }
+.green {
+    img {
+        border: 3px solid $yellow;
+        border-radius: 4px;
+        padding: 5px;
+        width: 80%;
+    }
+    img:hover {
+        box-shadow: 0 0 10px $yellow;
+    }
+}
+    
+
 .yellow {
     background: #ECF87F;
     padding: 25px;
